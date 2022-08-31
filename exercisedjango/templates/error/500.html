@@ -1,0 +1,19 @@
+{% extends 'layouts/base.html' %} 
+
+{% block title %} 
+
+Error 500 
+
+{% endblock title%} 
+
+{% block content %}
+<h1>Error 500</h1>
+
+<em>{{ error }}</em>
+
+<p>
+  😥 Ooooooooops, it's totally our fault.
+  <a href="{% url 'home' %}">Go back to the homepage</a>
+</p>
+
+{% endblock content %}

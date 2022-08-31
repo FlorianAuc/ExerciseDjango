@@ -1,0 +1,16 @@
+{% extends 'layouts/base.html' %} 
+
+{% block title %} 
+
+Homepage 
+
+{% endblock title%} 
+
+
+{% block content %}
+
+<h1>Hello !</h1>
+
+<a href="{% url 'blog:index' %}">Visiter notre blog</a>
+
+{% endblock content %}
